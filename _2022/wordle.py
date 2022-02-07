@@ -7,6 +7,7 @@ MISS = 0
 MISPLACED = 1
 EXACT = 2
 
+
 DATA_DIR = os.path.join(get_directories()["data"], "wordle")
 WORD_DATA_DIR = os.path.join(
     os.path.dirname(os.path.realpath(__file__)),
